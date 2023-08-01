@@ -1,0 +1,670 @@
+html , body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.first section {
+    background: url('../assets/image/bg.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    animation: animatedBackground 10s linear infinite alternate;
+    border-bottom: 10px solid #28ACF6;
+}
+.first section .text-overlay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.first section .text-overlay-container .title {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    display: block;
+    width: 100%;
+}
+
+.first section .text-overlay-container .desc {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    margin-top: 10px;
+
+}
+.text-center {
+        text-align: center;
+}
+.first section .text-overlay-container  .explorebtn {
+    background: transparent;
+    outline: 0;
+    border:1px solid #FFFFFF;
+    margin-top: 10px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+
+
+}
+.first section .text-overlay-container  .explorebtn:hover {
+    background: white;
+    color: #22186e;
+    transition: 1s;
+}
+.first section  .mouse-logo {
+    background: #28ACF6;
+    height: 40px;
+    width: 40px;
+    margin: 0px auto;
+    border-radius: 50%;
+    margin-top: -15px;
+
+}
+.first section .overlay {
+    background: rgba(34, 24, 110, 0.9);
+    height: 100%;
+
+}
+
+.first section .overlay .header  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first section .overlay .logo {
+    padding-top: 54px;
+    padding-left: 54px;
+}
+
+.first section .overlay .logo .tagline {
+    margin-top: 5px;
+}
+
+.first .navigation .desktop-menu {
+    margin-top: 80px;
+    margin-right: 80px;
+
+}
+.first .navigation .desktop-menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+.first .navigation .desktop-menu ul  li{
+    display: inline-block;
+    margin-left: 40px;
+    color: #FFF;
+}
+.first .navigation .desktop-menu ul  li a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+
+.first .navigation .desktop-menu ul  li a:after {
+    display      : block;
+    content      : '';
+    border-bottom: solid 2px #fff;
+    transform    : scaleX(0);
+    transition   : transform 300ms ease-in-out;
+}
+
+.first .navigation .desktop-menu ul  li a:hover:after {
+    transform: scaleX(1);
+}
+
+
+.first .navigation .desktop-menu ul  li a.different:after {
+    transform-origin: 0 50%;
+}
+
+
+.first .navigation .desktop-menu ul  li a.fromleft:after {
+    transform-origin: 0 50%;
+}
+.first .mainContent {
+    height: 100%;
+    align-items: center;
+    margin: 0px auto;
+}
+.first .mainContent .typewriter  {
+    text-align: center;
+}
+.first .mainContent .typewriter h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+;
+}
+ .second .circle-vector {
+
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    overflow: hidden;
+;
+}
+.circle {
+    height: 600px;
+    width: 600px;
+    background: #ECFEFF;
+    border-radius: 50%;
+    opacity: 0.5;
+    right: 0px;
+    position: absolute;
+    margin-top: 100px;
+
+}
+.circle-vector img {
+    height: 1413px;
+    margin-top: -540px;
+    position: relative;
+    transform: rotate(-1deg);
+    opacity: 0.8;
+}
+.second .container {
+    position: relative;
+    width: 100%;
+    background-size: contain;
+    background-position: right;
+}
+.second .container  .main-text-wrapper {
+        width: 40%;
+        padding: 255px 0px 0px 150px
+}
+.second .container  .main-text-wrapper h1{
+    color: #22186e;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+
+}
+
+.second .container  .main-text-wrapper p {
+    color: #22186e;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.second .container  .main-text-wrapper .btn {
+    background: #22186e;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 25px;
+
+}
+
+
+.second .container  .main-help-text-wrapper h1 {
+    color: #22186e;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+}
+
+.second .main-help-text-wrapper  {
+    margin: 255px 0px 0px 150px;
+
+
+}
+.second .main-help-text-wrapper .line-main {
+    width: 70%;
+}
+.second .main-help-text-wrapper .line-main .line {
+    height: 1px;
+    background: black;
+}
+
+
+.third {
+    overflow: hidden;
+    background: url("../assets/image/s3.png") no-repeat;
+    background-size: cover;
+
+}
+
+.third .thirdsection-container {
+    margin: 80px 150px 150px 150px;
+
+}
+.third .thirdsection-container .box-container  {
+
+    display: flex;
+}
+.third .thirdsection-container .box-container .box {
+    width: 33.33%;
+
+}
+.third .thirdsection-container .box-container .inner-box-wrapper {
+    padding: 40px;
+}
+.third .thirdsection-container .box-container .btn-main {
+    padding-left: 60px;
+}
+.third .thirdsection-container .box-container .inner-box-wrapper img {
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+.third .thirdsection-container .box-container .inner-box-wrapper .title {
+    color: #151B52;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin-top: 5px;
+}
+.third .thirdsection-container .box-container .inner-box-wrapper .desc {
+    color: #151B52;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 28px; /* 175% */
+    display: block;
+    margin-top: 10px;
+
+}
+.third .thirdsection-container .explorebtn {
+    background: #22186e;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 25px;
+}
+.third .thirdsection-container .box-container .box  .inner-box-wrapper:hover {
+    background: white;
+    box-shadow: -3px 13px 15px -10px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    margin-top: 5px;
+}
+.third .thirdsection-container .box-container .box  .inner-box-wrapper {
+    margin: 25px;
+    border: 1px solid #FFFFFF;;
+    border-radius: 5px;
+
+    /*box-shadow: -3px 13px 15px -3px rgba(0,0,0,0.75);*/
+}
+
+.fourth {
+    background: #22186e;
+}
+.fourth .container {
+        display: flex;
+}
+.fourth .container .col {
+    width: 50%;
+}
+.image-col {
+    padding: 10px 145px;
+}
+.image-border-circle {
+    /*margin: 90px;*/
+    padding: 90px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+}
+.second  .help-heading {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.fourth .container .col .image-bg {
+    height: 450px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 60px;
+    background: #28ACF6;
+}
+.fourth .container .col .image-bg img {
+    height: 100%;
+    width:100%;
+
+}
+.fourth .container .col .inner-text-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 90px;
+}
+.fourth .container .col .inner-text-wrapper .title {
+    color: #FFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: normal;
+    display: block;
+}
+.fourth .container .col .inner-text-wrapper .sub-title {
+    color: #FFF;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin-top:10px ;
+}
+.fourth .container .col .inner-text-wrapper .desc {
+    color: #FFF;
+    margin-top:10px ;
+    line-height: 25px;
+    display: block;
+}
+.fourth .container .col .inner-text-wrapper .explorebtn {
+    background: transparent;
+    outline: 0;
+    border:1px solid #FFFFFF;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.fourth .container .col .inner-text-wrapper .explorebtn:hover{
+    background: white;
+    color: #22186e;
+    transition: 1s;
+
+}
+.mobile-menu {
+    margin-top: 70px;
+    margin-right: 70px;
+    display: none;
+
+}
+
+.slick-list {
+    height: fit-content;
+}
+
+.mobile-menu .container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mobile-menu .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+.fifth .testimonial-main {
+    padding: 100px 200px;
+}
+
+.fifth .testimonial-main .slider .slide {
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fifth .testimonial-main .slider  .slide .title {
+    color: #151B52;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+}
+.fifth .testimonial-main .slider  .slide .slide-inner {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+.fifth .testimonial-main .slider .slide .timage {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.fifth .testimonial-main .slider .slid .sub-title {
+    color: #151B52;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.six .wrapper {
+    width: 100%;
+    background: #F8F8F8;
+}
+
+.six .wrapper .title{
+        text-align: center;
+        display: block;
+        padding-top: 70px;
+        padding-bottom: 180px;
+    color: #151B52;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.six .wrapper .title .highlight {
+    color: #28ACF6;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -50px;
+
+}
+.input-wrapper .emailInput:focus {
+    border: none;
+    outline: none;
+}
+.input-wrapper .emailInput {
+    width: 50%;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+
+
+}
+.input-wrapper .sendButto:focus {
+    border: none;
+    outline: none;
+}
+.input-wrapper .sendButton {
+    background:#28ACF6 ;
+    padding: 20px 30px;
+    outline: 0;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.input-wrapper-inner {
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background: #151B52;
+}
+
+.footer .footer-container {
+    padding: 10px 150px 0px 150px
+
+}
+
+.footer .footer-container .contact-info {
+    width: 60%;
+}
+.footer .footer-container .navigation {
+    width: 40%;
+}
+.footer .line-wrapper {
+    margin-top: 20px;
+    padding: 10px 150px 0px 150px;
+
+
+}
+
+.footer .line-wrapper .line {
+    height: 1px;
+    width: 100%;
+    background: #ECFEFF;
+}
+.footer .line-wrapper .copyright-text-container {
+    padding: 30px 0px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.mobile-menu .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.mobile-menu .change .bar2 {opacity: 0;}
+
+.mobile-menu .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+.m-l-32 {
+    margin-left: 32px;
+}
+
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+
+
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+.footer-container {
+    display: flex;
+    margin-top: 80px;
+
+
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #28ACF6 !important;
+}
+.contact-info .icon {
+    background: #28ACF6;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
+}
+.contact-info .info-list {
+    padding: 0px;
+    list-style: none;
+    margin: 40px 0px;
+
+}
+
+.contact-info .info-list li {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.contact-info .info-list li .info {
+    margin-left:  8px;
+}
+.footer-container  .navigation {
+    display: flex;
+}
+.footer-container  .navigation .title {
+    color: #FFFFFF;
+}
+.footer-container  .navigation .box{
+    width: 33.33%;
+}
+.footer-container  .navigation .info-links {
+    list-style: none;
+    margin: 5px 0px;
+    color: #FFFFFF;
+    padding: 0px;
+}
+.footer-container  .navigation .info-links li {
+    margin-top: 10px;
+}
+.social-media-icon-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.social-media-icon-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hide-visible {
+    visibility: hidden;
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
