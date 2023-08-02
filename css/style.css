@@ -1,6 +1,7 @@
 html , body {
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 
@@ -20,6 +21,19 @@ html , body {
     height:100%;
 }
 
+.first section .mouse-icon-wrapper {
+    height: 30px;
+    width: 30px;
+    background: #28ACF6;
+    padding: 10px;
+    border-radius: 50%;
+    margin: -20px auto;
+    cursor: pointer;
+}
+.first section .mouse-icon-wrapper img {
+    height: 100%;
+    width: 100%;
+}
 .first section .text-overlay-container .title {
     font-size: 45px;
     font-weight: 600;
